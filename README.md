@@ -1,22 +1,22 @@
 # React Toy Project 🧸
 
-Just a small toy project to test some hooks
+Apenas um pequeno projeto para testar alguns **react hooks**.
 
 * `useMemo`
-1. retorna um valor memorizado
+1. retorna um **valor** memorizado
 2. fica em cache até que a matriz de dependência mude
-3. executa a função assim que o componente é renderizado
+3. executa a função **assim que o componente é renderizado**
 
 * `useCallback`
-1. retorna uma função memorizada
+1. retorna uma **função** memorizada
 2. fica em cache até que a matriz de dependência mude
-3. executa a função apenas quando é chamada diretamente
+3. executa a função **apenas quando é chamada diretamente**
 
 * `useRef`
-1. mantém o valor independente de renderizações
+1. mantém o valor **independente de renderizações**
 
 * `memo`
-1. memoriza o componente inteiro ao invés do valor resultante de uma função
+1. memoriza o **componente inteiro** ao invés de uma função / valor de uma função
 
 
 # How to Run 💻
