@@ -3,12 +3,12 @@
 Apenas um pequeno projeto para testar alguns **react hooks**.
 
 * `useMemo`
-1. retorna um **valor** memorizado
+1. memorizado o **valor** resultando de uma função
 2. fica em cache até que a matriz de dependência mude
 3. executa a função **assim que o componente é renderizado**
 
 * `useCallback`
-1. retorna uma **função** memorizada
+1. memorizado uma **função**
 2. fica em cache até que a matriz de dependência mude
 3. executa a função **apenas quando é chamada diretamente**
 
