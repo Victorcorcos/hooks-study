@@ -3,7 +3,7 @@
 Just a small toy project to test some hooks
 
 - [x] `useMemo`
-- [x] `useCallbakc`
+- [x] `useCallback`
 - [x] `useRef`
 - [x] `memo`
 
