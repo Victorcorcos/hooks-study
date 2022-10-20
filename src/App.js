@@ -32,7 +32,7 @@ function App() {
   const memoNaoAtualizado = useMemo(() => {
     console.log('memoNaoAtualizado:', contador)
     return contador
-  }, [contador])
+  }, [])
 
   const refTest = () => {
     console.log('ref:', ref)
@@ -46,8 +46,8 @@ function App() {
       <button onClick={funcaoNormal}>funcaoNormal</button>
       <button onClick={callbackAtualizado}>callbackAtualizado</button>
       <button onClick={callbackNaoAtualizado}>callbackNaoAtualizado</button>
-      <button onClick={() => console.log('memoAtualizado:', contador)}>memoAtualizado</button>
-      <button onClick={() => console.log('memoNaoAtualizado:', contador)}>memoNaoAtualizado</button>
+      <button onClick={() => console.log('memoAtualizado:', memoAtualizado)}>memoAtualizado</button>
+      <button onClick={() => console.log('memoNaoAtualizado:', memoNaoAtualizado)}>memoNaoAtualizado</button>
       <button onClick={refTest}>refTest</button>
     </div>
   )
